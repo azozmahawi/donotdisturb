@@ -1,0 +1,45 @@
+:root {
+  --bg: #0E0C0B;
+  --card: #1A1512;
+  --paper: #EFE6D2;
+  --muted: #B8AD98;
+  --gold: #D9B86A;
+  --line: #3A2E22;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--paper);
+  font-family: "American Typewriter", "Courier New", Courier, monospace;
+  line-height: 1.65;
+  font-size: 17px;
+}
+main { max-width: 720px; margin: 0 auto; padding: 48px 20px 64px; }
+.sign {
+  display: inline-block;
+  border: 2px solid var(--gold);
+  color: var(--gold);
+  padding: 6px 14px;
+  letter-spacing: 4px;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 18px;
+}
+h1 { font-size: 30px; margin: 0 0 6px; line-height: 1.2; }
+h2 { font-size: 20px; color: var(--gold); margin: 36px 0 8px; }
+.sub { color: var(--muted); margin: 0 0 28px; font-size: 15px; }
+p, li { color: var(--paper); }
+ul { padding-left: 22px; }
+li { margin-bottom: 6px; }
+a { color: var(--gold); }
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 18px 20px;
+  margin: 20px 0;
+}
+nav { margin-bottom: 28px; font-size: 15px; }
+nav a { margin-right: 18px; }
+footer { margin-top: 56px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
